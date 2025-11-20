@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Omalov·nky Online</title>
+<title>Omalov√°nky Online</title>
 <style>
 body {
 margin: 0;
@@ -24,15 +24,15 @@ touch-action: none;
 </style>
 </head>
 <body>
-<h2>Omalov·nky Online</h2>
+<h2>Omalov√°nky Online</h2>
 
 
 <div id="tools">
-<button data-color="black">»ern·</button>
-<button data-color="red">»erven·</button>
-<button data-color="blue">Modr·</button>
+<button data-color="black">ƒåern√°</button>
+<button data-color="red">ƒåerven√°</button>
+<button data-color="blue">Modr√°</button>
 <button id="clear">Vymazat</button>
-<button id="save">St·hnout obr·zek</button>
+<button id="save">St√°hnout obr√°zek</button>
 </div>
 
 
@@ -44,9 +44,9 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
 
-// --- NASTAVENÕ OBR¡ZKU NA POZADÕ ---
+// --- NASTAVEN√ç OBR√ÅZKU NA POZAD√ç ---
 const img = new Image();
-img.src = "omalovanka.png"; // sem nahraj sv˘j obr·zek
+img.src = "omalovanka.png"; // sem nahraj sv≈Øj obr√°zek
 img.onload = () => {
 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 };
